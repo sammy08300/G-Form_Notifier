@@ -4,6 +4,7 @@ Ce projet est un script Google Apps qui permet de notifier un serveur Discord ch
 Dans le cas de la Oni korp le lien envoyé été celui ou l'on pouvait consulter les réponse individuelle des formulaire envoyé ! 
 
 Configuration
+
 1. Créez votre formulaire avec G-Form.
 2. Cliquez sur les trois petits points à droite du bouton "Envoyer".
 3. Cliquez sur "Editeur de script" et collez-y mon script.
@@ -32,11 +33,13 @@ Configuration
 4.10 Vous devez donner les autorisations au déclencheur d'exécuter le code.
 
 Personnalisation
+
 Vous pouvez personnaliser le message envoyé sur votre serveur Discord en modifiant la fonction createMessage(). 
 Cette fonction génère le message qui sera envoyé, et vous pouvez y modifier le titre, la description et les champs du message.
 Si vous vous y connaisez mal en code ne vous inquité pas toutes les ligne ou la personnonnalisation est possible j'y est ajouté un commentaire ! 
 
 Crédits
+
 Ce script a été créé par Yasunaii_, un membre de la Structure Oni Korp. 
 Si vous avez des questions ou des commentaires, n'hésitez pas à me contacter sur Discord. ( Yasunaii_#0220 ) 
 Ps : si mon discord a changer il y'a mon twitter sur mon profil ! 

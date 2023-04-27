@@ -10,15 +10,25 @@ Configuration
 4. Modifiez les variables "discordUrl" et "responseUrl" (les commentaires vous décrivent leur effet).
 
 4. Maintenant, vous devez gérer vos déclencheurs :
+
 4.1 A gauche, sélectionnez l'onglet "Déclencheurs".
+
 4.2 Ajoutez un nouveau déclencheur.
+
 4.3 Paramétrez le déclencheur comme suit :
+
 4.4 Choisissez la fonction à exécuter : "OnFormSubmit".
+
 4.5 Choisissez le déploiement à exécuter : "Head".
+
 4.6 Sélectionnez la source de l'évènement : "Basé sur le formulaire".
+
 4.7 Sélectionnez un type d'évènement : "Lors de l'envoi du formulaire".
+
 4.8 Paramètre de notification d'échec : "Recevoir une notification immédiatement".
+
 4.9 Enregistrez le déclencheur avec ces paramètres.
+
 4.10 Vous devez donner les autorisations au déclencheur d'exécuter le code.
 
 Personnalisation

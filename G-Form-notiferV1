@@ -1,0 +1,51 @@
+// Pour comprendre l'utilité du code aller voir le readme.md tous y est expliquer, configuration, personnalisation et si vous avez besoin d'aide il y'a mes informations
+// Ce script a initiatilement été développer pour la Oni korp !
+
+function onFormSubmit(e) {    
+  const discordUrl = ''; // ATTENTION : Vous devez mettre l'URL de votre webhook discord ici
+  const responseUrl = ''; // Personaliser l'url qui s'envoit lors du message discord
+    const message = createMessage(responseUrl); 
+    sendMessage(discordUrl, message);
+}
+  
+  function createMessage(responseUrl) { // Tu peux personaliser les message envoyé ici / je te conseil de test sur discord pour voir le résultat avant
+    const messageTitle = '📝 Un candidat vient de remplir le formulaire recrutement Joueurs'; // Le titre du message envoyé sur discord
+    const messageDescription = 'Une nouvelle réponse a été soumise au formulaire. Veuillez consulter la réponse en cliquant sur le lien ci-dessous : PS: il faut chercher la bonne candidature'; // Et la description du message ici
+    
+    const message = {
+      "embeds": [{
+        "title": messageTitle,
+        "description": messageDescription,
+        "color": getColor(), // Si vous voulez changer la coleurs il y'a la fonction getcolor en bas du script
+        "fields": [
+          {
+            "name": "Lien de la réponse :", // Dans le message discord cette message est sous forme de sous titre pour annoncer le lien
+            "value": responseUrl,  // Si vous envoyez le lien des réponse individuelle je vous conseil de raccourcir le lien avec Tinyurl par exemple ( plus esthétique )
+            "inline": true
+          }
+        ],
+        "footer": {
+          "text": "G-Form Notifer By Yasunaii_" // Cette partie du script correspond au pied du message, elle me sert de crédit ! ( merci )
+        }
+      }]
+    };
+    
+    return message;
+  }
+  
+  function sendMessage(url, message) { 
+    const options = {
+      'method': 'POST',
+      'payload': JSON.stringify(message),
+      'contentType': 'application/json'
+    };
+    
+    UrlFetchApp.fetch(url, options);
+  }
+  
+  function getColor() {  
+    const colorHex = '#C23028'; // Si tu veux modifier la couleurs a gauche du msg c'est ici
+    // Convertir la couleur en entier
+    return parseInt(colorHex.slice(1), 16);
+  }
+  

@@ -2,13 +2,13 @@
 
 <h3>CONFIGURATION :</h3>
 
-<p>Créez votre formulaire avec G-Form.</p>
+<p>0. Créez votre formulaire avec G-Form.</p>
 
-<p>Cliquez sur les trois petits points à droite du bouton "Envoyer".</p>
+<p>1. Cliquez sur les trois petits points à droite du bouton "Envoyer".</p>
 
-<p>Cliquez sur "Editeur de script" et collez-y mon script.</p>
+<p>2. Cliquez sur "Editeur de script" et collez-y mon script.</p>
 
-<p>Modifiez les variables "discordUrl" et "responseUrl" (les commentaires vous décrivent leur effet).</p>
+<p>3.Modifiez les variables "discordUrl" et "responseUrl" (les commentaires vous décrivent leur effet).</p>
 
 <p>Maintenant, vous devez gérer vos déclencheurs :</p>
 

@@ -1,4 +1,4 @@
-<p>Ce projet est un script Google Apps qui permet de notifier un serveur Discord chaque fois qu'un nouveau formulaire est soumis. Le script a été conçu pour être utilisé avec le formulaire de recrutement de joueurs de la guilde Oni Korp, mais il peut être facilement adapté pour d'autres formulaires. Dans le cas de la Oni korp le lien envoyé été celui ou l'on pouvait consulter les réponse individuelle des formulaire envoyé !</p>
+<p>Ce projet est un script Google Apps qui permet de notifier un serveur Discord chaque fois qu'un nouveau formulaire est soumis. 
 
 <h3>CONFIGURATION :</h3>
 

@@ -36,6 +36,4 @@
 
 <p>Vous pouvez personnaliser le message envoyé sur votre serveur Discord en modifiant la fonction createMessage(). Cette fonction génère le message qui sera envoyé, et vous pouvez y modifier le titre, la description et les champs du message. Si vous vous y connaisez mal en code ne vous inquité pas toutes les ligne ou la personnonnalisation est possible j'y est ajouté un commentaire !</p>
 
-<h3>Credits :</h3>
-
-<p>Ce script a été créé par Yasunaii_, un membre de la Structure Oni Korp. Si vous avez des questions ou des commentaires, n'hésitez pas à me contacter sur Discord. ( Yasunaii_#0220 ) Ps : si mon discord a changer il y'a mon twitter sur mon profil !</p>
+<h3>Vive l'open source.</h3>

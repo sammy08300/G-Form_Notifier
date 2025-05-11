@@ -1,39 +1,41 @@
-<p>Ce projet est un script Google Apps qui permet de notifier un serveur Discord chaque fois qu'un nouveau formulaire est soumis. 
+Bien sûr ! Voici la traduction en anglais de ton fichier avec les balises HTML d'origine, mais également converti en Markdown pour une utilisation facilitée tout en gardant la mise en forme.
 
-<h3>CONFIGURATION :</h3>
+<p>This project is a Google Apps Script that notifies a Discord server each time a new form is submitted.</p>
 
-<p>0. Créez votre formulaire avec G-Form.</p>
+<h3>CONFIGURATION:</h3>
 
-<p>1. Cliquez sur les trois petits points à droite du bouton "Envoyer".</p>
+<p>0. Create your form using G-Form.</p>
 
-<p>2. Cliquez sur "Editeur de script" et collez-y mon script.</p>
+<p>1. Click the three small dots to the right of the "Send" button.</p>
 
-<p>3.Modifiez les variables "discordUrl" et "responseUrl" (les commentaires vous décrivent leur effet).</p>
+<p>2. Click on "Script Editor" and paste my script there.</p>
 
-<p>Maintenant, vous devez gérer vos déclencheurs :</p>
+<p>3. Modify the "discordUrl" and "responseUrl" variables (the comments explain their purpose).</p>
 
-<h4 style="color:red;">4.1 A gauche, sélectionnez l'onglet "Déclencheurs".</h4>
+<p>Next, you need to set up your triggers:</p>
 
-<p>4.2 Ajoutez un nouveau déclencheur.</p>
+<h4 style="color:red;">4.1 On the left, select the "Triggers" tab.</h4>
 
-<p>4.3 Paramétrez le déclencheur comme suit :</p>
+<p>4.2 Add a new trigger.</p>
 
-<p>4.4 Choisissez la fonction à exécuter : "OnFormSubmit".</p>
+<p>4.3 Configure the trigger as follows:</p>
 
-<p>4.5 Choisissez le déploiement à exécuter : "Head".</p>
+<p>4.4 Choose the function to execute: "OnFormSubmit".</p>
 
-<p>4.6 Sélectionnez la source de l'évènement : "Basé sur le formulaire".</p>
+<p>4.5 Choose the deployment to execute: "Head".</p>
 
-<p>4.7 Sélectionnez un type d'évènement : "Lors de l'envoi du formulaire".</p>
+<p>4.6 Select the event source: "From form".</p>
 
-<p>4.8 Paramètre de notification d'échec : "Recevoir une notification immédiatement".</p>
+<p>4.7 Select an event type: "On form submit".</p>
 
-<p>4.9 Enregistrez le déclencheur avec ces paramètres.</p>
+<p>4.8 Failure notification setting: "Receive notification immediately".</p>
 
-<p>4.10 Vous devez donner les autorisations au déclencheur d'exécuter le code.</p>
+<p>4.9 Save the trigger with these settings.</p>
 
-<h3>PERSONALISATION :</h3>
+<p>4.10 You must grant permissions for the trigger to execute the code.</p>
 
-<p>Vous pouvez personnaliser le message envoyé sur votre serveur Discord en modifiant la fonction createMessage(). Cette fonction génère le message qui sera envoyé, et vous pouvez y modifier le titre, la description et les champs du message. Si vous vous y connaisez mal en code ne vous inquité pas toutes les ligne ou la personnonnalisation est possible j'y est ajouté un commentaire !</p>
+<h3>CUSTOMIZATION:</h3>
 
-<h3>Vive l'open source.</h3>
+<p>You can customize the message sent to your Discord server by modifying the createMessage() function. This function generates the message to be sent, and you can change the title, description, and fields of the message there. If you are not familiar with code, don't worry: every line where customization is possible has a comment added!</p>
+
+<h3>Long live open source!</h3>

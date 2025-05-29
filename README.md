@@ -1,5 +1,3 @@
-Bien sûr ! Voici la traduction en anglais de ton fichier avec les balises HTML d'origine, mais également converti en Markdown pour une utilisation facilitée tout en gardant la mise en forme.
-
 <p>This project is a Google Apps Script that notifies a Discord server each time a new form is submitted.</p>
 
 <h3>CONFIGURATION:</h3>
